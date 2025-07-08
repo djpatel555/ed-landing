@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boost Your Performance Naturally | Discreet Delivery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8f2;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #d20000;
+      font-size: 28px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .hero-image,
+    .feature-image,
+    .testimonial-image {
+      width: 100%;
+      border-radius: 12px;
+      margin: 15px 0;
+    }
+    .urgency-box {
+      background: #fff3cd;
+      color: #856404;
+      padding: 10px;
+      border-left: 5px solid #ffca2c;
+      margin: 15px 0;
+      font-weight: bold;
+      text-align: center;
+    }
+    .cta-button {
+      display: block;
+      text-align: center;
+      background: #28a745;
+      color: white;
+      padding: 15px;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 8px;
+      margin: 20px auto;
+      width: 80%;
+    }
+    .cta-button:hover {
+      background: #218838;
+    }
+    .review {
+      background: #f9f9f9;
+      padding: 10px;
+      border-left: 4px solid #007bff;
+      margin: 10px 0;
+      border-radius: 6px;
+    }
+    .footer-note {
+      font-size: 13px;
+      color: #888;
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Struggling in Bed? You're Not Alone</h1>
+    <img src="https://i.imgur.com/wc6ON9z.jpg" alt="Performance Booster" class="hero-image">
+
+    <p style="text-align:center;font-size:18px;">100% Natural ED Solution trusted by over <strong>25,000+ men</strong> across the USA. Fast results. Discreet shipping. No prescription needed.</p>
+
+    <div class="urgency-box">
+      🔥 Only 11 packs left at this price! Offer expires in <span id="timer">10:00</span>
+    </div>
+
+    <img src="https://i.imgur.com/2XmjUzm.jpg" alt="Feature Pills" class="feature-image">
+
+    <a href="https://wa.me/12138285830" class="cta-button">💬 Click Here to Order Now on WhatsApp</a>
+
+    <h3 style="text-align:center;margin-top:30px;">What Our Customers Say:</h3>
+
+    <div class="review">
+      <img src="https://i.imgur.com/epT5y2s.jpg" alt="Mike Testimonial" class="testimonial-image">
+      "I was skeptical at first, but this stuff WORKS. My confidence is back!" – Mike, TX
+    </div>
+    <div class="review">
+      <img src="https://i.imgur.com/n0sOmbS.jpg" alt="David Testimonial" class="testimonial-image">
+      "Discreet delivery, fast results, and my partner is thrilled. 5 stars." – David, NY
+    </div>
+    <div class="review">
+      <img src="https://i.imgur.com/YfNUzRf.jpg" alt="Ryan Testimonial" class="testimonial-image">
+      "Tried 3 other pills. This one actually did the job. Highly recommend!" – Ryan, FL
+    </div>
+
+    <a href="https://wa.me/12138285830" class="cta-button">✅ Chat Now – Limited Time Offer</a>
+
+    <div class="footer-note">*Statements not evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</div>
+  </div>
+
+  <script>
+    let timer = 600;
+    const display = document.getElementById("timer");
+    setInterval(() => {
+      if (timer > 0) {
+        timer--;
+        const mins = Math.floor(timer / 60);
+        const secs = timer % 60;
+        display.innerText = \`\${mins}:\${secs.toString().padStart(2, '0')}\`;
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
